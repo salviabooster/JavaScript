@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h4>Завдання 5</h4>
+	<p>З клавіатури вводиться назва категорії водія (А-мотоцикл, В-легковий автомобіль, С-вантажний автомобіль). Вивести на
+	екран назву транспортного засобу, яким він може керувати.</p>
+	<script>
+		let userDriverCategory = prompt('Введіть вашу категорію, щоб отримати данні яким транспортним засобом ви можете користуватись. Доступні категорії "A B C"')
+		const categoryA = 'A'
+		const categoryB = 'B'
+		const categoryC = 'C'
+
+		if (userDriverCategory === categoryA)
+			document.write(`Ви вибрали категорію А, Ви можете користувутись мотоциклом`)
+		else if (userDriverCategory === categoryB)
+			document.write(`Ви вибрали категорію B, і Ви можете користувутись легковим автомобілем`)
+		else if (userDriverCategory === categoryC)
+			document.write(`Ви вибрали категорію С, Ви можете користуватись вантажнийм автомобілем`)
+		else
+			document.write(`Ви ввели некоректні данні, використовуйте латинськи символи як вказано в умові`)
+	</script>
+</body>
+</html>

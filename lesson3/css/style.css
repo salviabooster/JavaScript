@@ -1,0 +1,11 @@
+body {
+	background-color: rgba(155, 97, 30, 0.751);
+	color: rgb(0, 0, 0);
+}
+a {
+	color: rgb(252, 222, 222);
+	font-size: 20px;
+}
+li {
+	font-size: 17px;
+}
